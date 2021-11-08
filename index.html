@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./gird.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .container {
+           
+            text-align: center;
+            color: white;
+        }
+
+        
+        .course-item{
+            background-color:orange ;
+            color: white;
+            height: 200px ; 
+        }
+        h1 {
+            color: white;
+            line-height: 200px;
+            margin: 0 ;
+
+        }
+        @media (max-width:1023px) {
+            .course-item{
+                margin-top: 16px;
+            }
+        }
+        .category{
+            
+            background-color:green ; 
+            height: 200px ; 
+        }
+        ul{
+            margin-top:0 ; 
+        }
+        .container{
+            background-color:antiquewhite ; 
+            min-height: 100vh ; 
+        }
+        .my-color{
+            background-color: orange ; 
+            min-height: 50vh ;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+    <!-- column : .col
+    Prefix class: 
+        -c - mobile
+        -m - tablet
+        -L -pc -->
+<body>
+    <div class=" gird wide container">
+        <div class="row">
+            
+            <!-- <div class="col l-3 m-0 c-0">
+                <div class="category">
+                    <ul class="li">JAVA</ul>
+                    <ul class="li">HTMT,CSS</ul>
+                    <ul class="li">PHP</ul>
+                </div>
+
+            </div>
+            <div class="col l-9 m-12 c-12">
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        
+                        <div class="course-item">
+                            <h1>Course 1 </h1>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-4 c-12">
+                        
+                        <div class="course-item">
+                            <h1>Course 2 </h1>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-4 c-12">
+                        
+                        <div class="course-item">
+                            <h1>Course 3 </h1>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                
+
+            </div> -->
+
+            <!-- test colunm-offset -->
+            <div class="col l-6  l-o-3  ">
+                <div class="my-color">
+                    <h1>Colum 1</h1>
+                </div>
+            </div>
+
+            
+
+
+        </div>
+    </div>
+</body>
+</html>
